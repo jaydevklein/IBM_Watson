@@ -1,0 +1,17 @@
+{
+  "name": "ibm-watson",
+  "version": "1.0.0",
+  "description": "test IBM Watson service with Nodejs",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "line-in": "^0.1.2",
+    "watson-developer-cloud": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "J. Klein",
+  "license": "ISC"
+}
