@@ -24,7 +24,7 @@ const recognizeStream = speechToText.recognizeUsingWebSocket({
 });
 
 recognizeStream.on('open', () => {
-    console.log('ready to transcribe');
+    console.log('start speaking now...');
 })
 //var writeStream = fs.createWriteStream("transcript.txt");
 
