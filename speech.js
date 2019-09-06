@@ -1,8 +1,10 @@
+//  iam_apikey: 'CTcOweRX0zBagT25NHvTk5F7cvRwBoxLGOZZ6rVo4SGS',
+require('dotenv').config();
+
 var SpeechToTextV1 = require('watson-developer-cloud/speech-to-text/v1');
 var fs = require('fs');
 
 var speechToText = new SpeechToTextV1({
-  iam_apikey: 'CTcOweRX0zBagT25NHvTk5F7cvRwBoxLGOZZ6rVo4SGS',
   url: 'https://stream.watsonplatform.net/speech-to-text/api/'
 });
 

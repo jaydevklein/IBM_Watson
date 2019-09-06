@@ -8,13 +8,11 @@ const LanguageTranslatorV3 = require('watson-developer-cloud/language-translator
 const SpeechToTextV1 = require('watson-developer-cloud/speech-to-text/v1');
 
 const languageTranslator = new LanguageTranslatorV3({
-  iam_apikey: 'FRYEp-rTZahdlFvGqvrWmMgaRMNymxgY60gF1ls3Vrnr',
   url: 'https://gateway.watsonplatform.net/language-translator/api/',
   version: '2019-09-06',
 });
 
 var speechToText = new SpeechToTextV1({
-    iam_apikey: 'CTcOweRX0zBagT25NHvTk5F7cvRwBoxLGOZZ6rVo4SGS',
     url: 'https://stream.watsonplatform.net/speech-to-text/api/'
   });
 
