@@ -1,4 +1,6 @@
 ## Prerequisites
+Create an IBM Cloud account: https://cloud.ibm.com/registration  
+
 Create instances of these Watson services:  
 - Language Translator  
 - Speech to Text  
@@ -14,6 +16,6 @@ Build the projects:
 To run the Speech to text script:  
 `node speech_to_text.js`  
 
-To run the Transcribe a WAV file:  
+To run the Transcribe a WAV file script:  
 Place a wav file in the resources folder named speech.wav  
 `transcribe_wav.js`
